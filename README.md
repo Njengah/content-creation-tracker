@@ -36,7 +36,7 @@ The plugin adds a widget to your WordPress dashboard that provides a summary of 
 
 ### Dashboard Widget Example
 
-![Dashboard Widget Screenshot](assets/screenshots/screenshot-1.png)
+![Dashboard Widget Screenshot](assets/screenshots/Screenshot_1.png)
 
 This widget will show the time spent creating each post. The widget dynamically updates to show the most recent posts and their associated time data.
 
