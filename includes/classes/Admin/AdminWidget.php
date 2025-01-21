@@ -78,7 +78,7 @@
             $time_spent = ($end - $start) / 60;
 
             if ($time_spent > 0) {
-                $labels[] = esc_js("Post ID: $post_id ($time_date)");
+                $labels[] = esc_js("Post: $post_id");
                 $data[] = $time_spent;
                 $colors[] = 'rgba(75, 192, 192, 0.2)';
                 $borderColors[] = 'rgba(75, 192, 192, 1)';
