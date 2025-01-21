@@ -42,7 +42,7 @@ This widget will show the time spent creating each post. The widget dynamically 
 
 ### Lists of Post with Time Data in Columns
 
-![Dashboard Widget Screenshot](assets/screenshots/Screenshot_1.png)
+![Dashboard Widget Screenshot](assets/screenshots/Screenshot_2.png)
 
 This view provides a list of posts in the WordPress dashboard, displaying the creation time, start time, end time, and total time spent for each post. These columns give users an overview of the time tracking data at a glance, helping them to quickly analyze the content creation efficiency for each post.
 
