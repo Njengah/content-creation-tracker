@@ -40,11 +40,17 @@ The plugin adds a widget to your WordPress dashboard that provides a summary of 
 
 This widget will show the time spent creating each post. The widget dynamically updates to show the most recent posts and their associated time data.
 
-### Time Tracker Data in Bar Chart
+### Lists of Post with Time Data in Columns
 
-![Time Tracker Bar Chart Screenshot](screenshot-2.png)
+![Dashboard Widget Screenshot](assets/screenshots/Screenshot_1.png)
 
-This bar chart visualizes the time spent on each post, helping you easily identify which posts took the most time.
+This view provides a list of posts in the WordPress dashboard, displaying the creation time, start time, end time, and total time spent for each post. These columns give users an overview of the time tracking data at a glance, helping them to quickly analyze the content creation efficiency for each post.
+
+### Adding the Creation Time Creating Post Page
+
+![Dashboard Widget Screenshot](assets/screenshots/Screenshot_3.png)
+
+This screenshot shows how to add the creation time data on the post editing screen. Users can manually input the start time and end time for the post, which is then used to calculate the total time spent creating the content.
 
 ## Frequently Asked Questions (FAQs)
 
