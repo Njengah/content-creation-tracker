@@ -1,8 +1,12 @@
 # Content Creation Tracker
 
-**Content Creation Tracker** is a WordPress plugin designed to help users track the time spent creating content on their WordPress site. By measuring how long it takes to create each post, users can identify areas for improvement and increase their content creation efficiency. This plugin provides a simple interface to view time spent on each post and visualizes it through a dashboard widget.
-
 ![Main Screenshot](assets/screenshots/Screenshot_main.png)
+
+**Content Creation Tracker** is a WordPress plugin designed to help users track the time spent creating content on their WordPress site.
+
+By measuring how long it takes to create each post, users can identify areas for improvement and increase their content creation efficiency.
+
+This plugin provides a simple interface to view time spent on each post and visualizes it through a dashboard widget.
 
 ## Features
 
