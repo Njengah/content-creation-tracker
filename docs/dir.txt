@@ -1,0 +1,53 @@
+content-creation-tracker/
+├── includes/
+│   ├── traits/
+│   │   └── Singleton.php
+│   ├── abstract/
+│   │   └── BasePlugin.php
+│   ├── classes/
+│   │   ├── Admin/
+│   │   │   ├── Metabox.php
+│   │   │   └── DashboardWidget.php
+│   │   ├── Frontend/
+│   │   │   ├── Shortcodes.php
+│   │   │   └── Scripts.php
+│   │   ├── Core/
+│   │   │   └── TimeTracker.php
+│   │   └── Main.php
+├── assets/
+│   ├── css/
+│   └── js/
+├── languages/
+├── content-creation-tracker.php
+├── uninstall.php
+
+
+Explanation of the Structure
+includes/
+
+Contains all PHP code organized into traits, abstract classes, and concrete classes.
+traits/
+
+Place reusable traits here, such as Singleton.php for implementing the Singleton pattern, which ensures classes like Main or TimeTracker are instantiated only once.
+abstract/
+
+Include abstract classes that define the base functionality for plugin components.
+Example: BasePlugin.php, which might define common properties or methods like plugin activation hooks.
+classes/
+
+Organized by functionality:
+Admin: Classes related to admin features (e.g., Metabox.php for the time tracker metabox and DashboardWidget.php for the dashboard widget).
+Frontend: Classes for frontend features (e.g., Shortcodes.php for the graph shortcodes and Scripts.php for enqueuing assets).
+Core: Core logic like time tracking (TimeTracker.php) or utilities.
+assets/
+
+Contains CSS and JavaScript files for styling or interactivity.
+languages/
+
+Holds translation files for internationalization (optional, but recommended).
+content-creation-tracker.php
+
+The main plugin file where the plugin is initialized. It loads the Main class and manages activation and deactivation hooks.
+uninstall.php
+
+Handles cleanup during plugin uninstallation (e.g., removing custom metadata).
