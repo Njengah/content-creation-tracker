@@ -12,6 +12,7 @@ defined('ABSPATH') || exit;
 require_once __DIR__ . '/includes/traits/Singleton.php';
 require_once __DIR__ . '/includes/base/BasePlugin.php';
 require_once __DIR__ . '/includes/classes/Core/TimeTracker.php';
+require_once __DIR__ . '/includes/classes/Admin/AdminWidget.php';
 require_once __DIR__ . '/includes/classes/Main.php';
 
 use ContentCreationTracker\Main;
